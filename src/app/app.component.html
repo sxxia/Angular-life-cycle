@@ -1,0 +1,32 @@
+<!-- <div class="container">
+  <h1>Parent Component</h1>
+  <p>Greeting: <input type="text" [(ngModel)]="greeting"></p>
+  <p>Name: <input type="text" [(ngModel)]="user.name"></p>
+  <app-child
+    [greeting]="greeting"
+    [user]="user">
+  </app-child>
+</div> -->
+
+<!-- ==========Child 2============ -->
+<!-- <h1>Parent Component</h1>
+<div>
+  <app-child2 #view1></app-child2>
+  <app-child2 #view1></app-child2>
+  <button (click)="view1.greeting('Simon')">Click</button>
+</div> -->
+
+<!-- <app-hooks [name]="title"></app-hooks> -->
+
+<!-- =================Child 3=================== -->
+<!-- <div class="container">
+  <h1>Parent Component</h1>
+  <div>This is a 'div' element in parent component</div>
+  <app-child3>
+    <div class="header">This is header which projected from parent component, title is {{title}}</div>
+    <div class="footer">This is footer which projected from parent component</div>
+  </app-child3>
+</div> -->
+
+<!-- ===================Child 4===================== -->
+<app-child4 [name]="title"></app-child4>
